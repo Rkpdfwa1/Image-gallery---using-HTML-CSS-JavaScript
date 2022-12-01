@@ -6,11 +6,9 @@ function myImage(x){
     
     const img = x.src
     
-    const img_box = document.querySelector(".broad_img")
-
     box.style.display = "none"
     b_img.style.display= "flex"
-    img_box.src = img
+    b_img.src = img
     
 }
 
